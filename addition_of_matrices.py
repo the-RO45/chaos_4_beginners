@@ -1,4 +1,5 @@
 def add_matrix():
+    print("-------------------------------------------------")
     if r1==r2 and c1==c2:
         print("Addition Matrix of Given matrices is:")
         for i in range(r1):
@@ -15,7 +16,7 @@ for i in range(r1):
     for j in range(c1):
         print(m1[i][j], end=" ")
     print()
-       
+print("-------------------------------------------------")       
 r2=int(input("\nEnter no of rows in the matrix 2: "))
 c2=int(input("Enter no of columns in the matrix 2: "))
 m2=[[int(input("Enter element: ")) for j in range(c2)] for i in range(r2)]
